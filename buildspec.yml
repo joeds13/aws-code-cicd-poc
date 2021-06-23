@@ -11,9 +11,6 @@ phases:
     commands:
       - pwd
       - ls -l
-      - python -V
-      - node --version
-      - terraform -version
       - echo ${AWS_DEFAULT_REGION}
       - echo ${AWS_REGION}
       - echo ${CODEBUILD_BATCH_BUILD_IDENTIFIER}
