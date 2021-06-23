@@ -3,7 +3,7 @@ phases:
   install:
     runtime-versions:
       python: 3.8
-      nodejs: 16
+      nodejs: 12
     commands:
       - python -V
       - node --version
