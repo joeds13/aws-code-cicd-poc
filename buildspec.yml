@@ -36,7 +36,7 @@ phases:
       - echo ${CODEBUILD_WEBHOOK_TRIGGER}
       - echo ${HOME}
       - touch $CODEBUILD_BUILD_NUMBER.output
-  artifacts:
-    files:
-      - "**/*"
-    name: aws-code-cicd-poc-$CODEBUILD_BUILD_NUMBER
+artifacts:
+  files:
+    - "**/*"
+  name: aws-code-cicd-poc-$CODEBUILD_BUILD_NUMBER
