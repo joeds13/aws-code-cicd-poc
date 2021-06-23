@@ -13,3 +13,4 @@ phases:
       - ls -l
       - python -V
       - node --version
+      - terraform -version
