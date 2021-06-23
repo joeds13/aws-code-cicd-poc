@@ -10,7 +10,3 @@ phases:
   build:
     commands:
       - echo "PREPROD DEPLOY"
-  artifacts:
-    files:
-      - "**/*"
-    name: aws-code-cicd-poc-$CODEBUILD_BUILD_NUMBER
